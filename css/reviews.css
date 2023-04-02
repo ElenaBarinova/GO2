@@ -1,0 +1,35 @@
+.reviews__title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 60px;
+}
+
+.reviews__list {
+  text-align: center;
+}
+
+.reviews__item:not(:last-child) {
+  margin-bottom: 50px;
+}
+
+.reviews__figure {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.reviews__avatar {
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+}
+
+.reviews__text {
+  padding-top: 50px;
+  display: inline-block;
+  max-width: 680px;
+  vertical-align: top;
+  text-align: left;
+}
