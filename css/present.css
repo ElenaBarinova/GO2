@@ -1,0 +1,102 @@
+.present__container {
+  position: relative;
+}
+.present__title {
+  font-weight: 900;
+  font-size: 150px;
+  line-height: 100%;
+  letter-spacing: -0.1em;
+  margin-bottom: 0;
+  text-transform:uppercase;
+}
+
+.present__subtitle {
+  font-size: 28px;
+  line-height: 50px;
+  padding-left: 100px;
+  margin-bottom: 30px;
+}
+
+.present__container {
+  position: relative;
+  height: 823px;
+}
+
+.present__container::after {
+  content: "";
+  background-image: url(../img/present/banner.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-block;
+  width: 675px;
+  height: 762px;
+  position: absolute;
+  bottom: 1px;
+  right: 130px;
+}
+
+.present__list {
+  max-width: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: flex-end;
+  gap: 40px;
+  margin-bottom: 150px;
+}
+
+.present__item {
+  text-align: center;
+}
+
+.present__subject {
+  font-weight: 900;
+  color: #CD06FF;
+}
+
+.present__subject_size {
+  font-size: 100px;
+  line-height: 141px;
+}
+
+.present__subject_style {
+  font-size: 75px;
+  line-height: 106px;
+  font-variant: small-caps;
+}
+
+.present__text {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 34px;
+}
+
+.present__booking {
+  width: 374px;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 30px;
+  text-transform: uppercase;
+  padding: 25px 69px;
+  background-color: #6C0287;
+  border-radius: 10px;
+  box-shadow: 0 0 20px #6C0287;
+}
+
+.down {
+  width: 97px;
+  margin: 0 auto;
+}
+
+.down__link {
+  display: block;
+  background-image: url(../img/present/down.svg);
+  width: 97px;
+  height: 97px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  bottom: 90px;
+  z-index: 2;
+}

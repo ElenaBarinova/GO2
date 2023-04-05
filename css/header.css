@@ -1,0 +1,40 @@
+.header{
+  padding-top: 30px;
+}
+
+.header__container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation {
+}
+
+
+.navigation__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap:40px;
+
+}
+.navigation__item {
+  font-size:22px;
+  line-height: 50px;
+  text-transform: uppercase;
+}
+
+.header__link {
+  font-style: 700;
+  font-size: 22px;
+  line-height: 30px;
+  padding: 12px 32px 13px;
+  text-transform:uppercase;
+  text-align: center;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: #CD06FF;
+}
