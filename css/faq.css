@@ -10,14 +10,19 @@
 .faq__list {
   font-weight: 700;
   font-size: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .faq__item {
   background-color: #fff;
   color: #1C1A1A;
-  padding: 30px 70px;
-  margin-bottom: 20px;
-  position: relative;
+  padding: 20px 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .faq__item:nth-child(even) {
@@ -25,20 +30,15 @@
   color: #fff;
 }
 
-.faq__item:after {
-  content: "";
-  display: inline-block;
-  position: absolute;
+.faq__answer {
   width: 46px;
   height: 46px;
   background-image: url(../img/faq/open-purple.svg);
+  background-repeat: no-repeat;
   background-size: contain;
-  bottom: 20px;
-  right: 66px;
-  
- 
-} 
+  background-position: center;
+}
 
-.faq__item:nth-child(even):after {
+.faq__item:nth-child(even) .faq__answer {
   background-image: url(../img/faq/open.svg);
 }

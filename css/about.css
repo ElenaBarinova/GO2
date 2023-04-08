@@ -8,12 +8,16 @@
 }
 
 .about__box {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.about__wrapper {
   max-width: 500px;
-  margin-left: 680px;
   position: relative;
 }
 
-.about__box::before {
+.about__wrapper::before {
   content: "";
   background-image: url(../img/about/about-us.jpg);
   background-repeat: no-repeat;
@@ -21,7 +25,7 @@
   background-position: center;
   display: inline-block;
   width: 600px;
-  height: 596px;
+  height: 100%;
   position: absolute;
   left: -680px;
 }

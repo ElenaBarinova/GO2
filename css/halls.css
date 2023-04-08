@@ -13,21 +13,23 @@
   line-height: 80px;
   text-align: center;
   text-transform: uppercase;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
 }
 
 .halls__item {
   display: inline-block;
-  width: 580px;
+  flex-basis: 580px;
   height: 349px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  vertical-align: top;
-  margin-bottom: 20px;
-}
-
-.halls__item:nth-last-child(-n+2) {
-  margin-bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .halls__item-80vibes {
@@ -47,6 +49,5 @@
 }
 
 .halls__name {
-  display: inline-block;
-  padding-top: 135px;
+  width: 252px;
 }

@@ -1,3 +1,8 @@
+.booking__container {
+  background-color: #440F51;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
 .booking__title {
   font-weight: 700;
   font-size: 40px;
@@ -5,4 +10,176 @@
   text-align: center;
   text-transform: uppercase;
   margin-bottom: 60px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.form__legend {
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.fieldset-halls {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 60px;
+  margin-bottom: 60px;
+}
+
+.fieldset-halls__label {
+  width: 250px;
+}
+
+.fieldset-hall__input {
+  position: absolute;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin-left: -5px;
+}
+
+.fieldset-hall__span {
+  width: 100%;
+  display: block;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+  padding: 7px 15px;
+  background: #FFFFFF;
+  border-radius: 8px;
+}
+
+.fun {
+  padding: 0 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+.fun__fieldset {
+  display: flex;
+  flex-direction: column;
+  gap:20px;
+}
+
+.fun__legend {
+  text-align: left;
+  margin-bottom: 22px;
+}
+
+.fun__label {
+  font-size: 22px;
+  line-height: 25px;
+  margin-left: 37px;
+}
+
+.fun__label-radio {
+  margin-left: 39px;
+}
+
+.fun__input {
+  position: absolute;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin-right: 0px;
+}
+
+.fun__input::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left:-39px;
+  display: block;
+  width: 25px;
+  height: 25px;
+  background-color: #ffffff;
+}
+
+.fun__input-radio::before {
+  width: 27px;
+  height: 27px;
+  border-radius: 50%;
+}
+
+/*дата-время*/
+
+.reserving {
+  padding: 0 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.reserving__label {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.reserving__column {
+  flex-basis: 300px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 14px;
+}
+
+.reserving__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.reserving__span {
+  display: block;
+  margin-bottom: 4px;
+}
+
+.column-2 {
+  flex-basis: 280px;
+}
+
+.column-1__label{
+  padding-top: 17px;
+}
+
+
+.column-1__label_width {
+  width: 134px;
+  flex-basis: 134px;
+}
+
+.reserving__input {
+  width: 100%;
+  height: 52px;
+}
+
+.form__box {
+  padding: 0 100px;
+  align-self: flex-end;
+}
+
+.form__btn {
+  align-self: flex-end;
+  padding: 16px 50px;
+  border-radius: 10px;
+  background:#FFFFFF;
+  border:0;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #6C0287;
 }

@@ -8,17 +8,26 @@
 }
 
 .reviews__list {
+ display: flex;
+ flex-direction: column;
+ justify-content:space-between;
+ gap: 50px;
+ align-items: center;
+}
+
+.reviews__item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.reviews__autor {
   text-align: center;
+ 
+
 }
 
-.reviews__item:not(:last-child) {
-  margin-bottom: 50px;
-}
-
-.reviews__figure {
-  display: inline-block;
-  margin-right: 20px;
-}
 
 .reviews__avatar {
   width: 280px;
@@ -26,10 +35,8 @@
   border-radius: 50%;
 }
 
-.reviews__text {
-  padding-top: 50px;
-  display: inline-block;
+.reviews__box {
   max-width: 680px;
-  vertical-align: top;
-  text-align: left;
+  padding-top: 50px;
 }
+
